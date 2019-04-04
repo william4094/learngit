@@ -1,0 +1,27 @@
+#Git分布式版本控制系统 base on C
+
+Git安装：
+	Debian&Ubuntu：$sudo apt-get install git
+	Mac OS：homebrew、Xcode
+	Windows：下载安装文件（建议镜像）
+
+$ git config --global user.name "Your Name"
+$ git config --global user.email "email@example.com"
+
+创建版本库：
+#mkdir 创建子文件夹 后可跟 -命令
+$ mkdir learngit
+$ cd learngit
+#pwd 显示当前目录
+$ pwd
+
+仓库初始化：
+#将当前目录建成一个仓库
+$ git init
+(ls -ah #查看隐藏文件)
+
+文件格式：建议UTF-8 二进制文件无法跟踪改动
+
+
+
+ 
