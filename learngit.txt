@@ -14,6 +14,8 @@ $ mkdir learngit
 $ cd learngit
 #pwd 显示当前目录
 $ pwd
+#cat 查看文件内容
+$ cat <file>
 
 仓库初始化：
 #将当前目录建成一个仓库
