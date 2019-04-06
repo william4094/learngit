@@ -24,11 +24,25 @@ $ git init
 
 将文件添加进仓库：
 $ git add <file>
-#commit 可一次提交多个文件
+#可add多个文件
+#commit 可一次提交所有已add的文件
 #-m 后加文件修改说明
 $ git commit -m <message>
 
 查看仓库状态：
 $ git status
+
+
+历史记录
+$ git log
+#简单信息输出
+$ git log --pretty=oneline
+#commit_id (版本号)由SHA1计算，16进制表示
+ 
+版本回退
+$ git reset --hard <commit_id[4]>
+#<commit_id[4]>/HEAD^/HEAD~1
+#查看HEAD更改日志
+$git reflow
 
 
