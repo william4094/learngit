@@ -59,3 +59,9 @@ $ rm <file>
 #版本库删除
 $ git rm
 $ git commit -m <message>
+
+推送到GitHub
+#首次同步时使用 -u 将本地与github的master关联，简化后续推送命令
+$ git remote add origin git@github.com:<GitHub_Name>/<repo_Name>.git
+#以后可使下面简化命令
+$ git push origin master
