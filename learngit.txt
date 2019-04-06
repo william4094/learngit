@@ -47,4 +47,9 @@ $ git reset --hard <commit_id[4]>
 #查看HEAD更改日志
 $git reflow
 
+取消工作区修改
+#直接丢弃工作区修改
+$ git checkout -- <file>
+#取消暂存区的add
+$ git reset HEAD <file>
 
