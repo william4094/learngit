@@ -56,8 +56,8 @@ $ git reset HEAD <file>
 删除文件
 #本地删除
 $ rm <file>
-#版本库删除
-$ git rm
+#版本库删除 删除目录 rm -r
+$ git rm <filename>
 $ git commit -m <message>
 
 推送到GitHub
