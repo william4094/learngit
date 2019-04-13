@@ -1,4 +1,4 @@
-#Git分布式版本控制系统 base on C
+﻿#Git分布式版本控制系统 base on C
 
 Git安装：
 	Debian&Ubuntu：$sudo apt-get install git
@@ -61,6 +61,8 @@ $ git rm <filename>
 $ git commit -m <message>
 
 推送到GitHub
+#添加本地.ssh/id_isa.pub至GitHub
+$ ssh-keygen -t rsa -C "youremail@example.com"
 #关联远程库
 $ git remote add origin git@github.com:<GitHub_Name>/<repo_Name>.git
 #首次同步时使用 -u 将本地与github的master关联，简化后续推送命令
