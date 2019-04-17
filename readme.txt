@@ -1,5 +1,5 @@
 #Git分布式版本控制系统 base on C
-==ß
+==
 
 Git安装：
 	Debian&Ubuntu：$sudo apt-get install git
