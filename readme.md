@@ -46,6 +46,8 @@ $ git reset --hard <commit_id[4]>
 #<commit_id[4]>/HEAD^/HEAD~1  
 #查看HEAD更改日志  
 $git reflow  
+#强制推送到远程分支（远程回滚）
+ git push -f origin master
 
 ## 取消工作区修改  
 #直接丢弃工作区修改  
